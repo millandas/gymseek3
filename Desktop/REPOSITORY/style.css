@@ -1,68 +1,74 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    border: none;
-  }
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
 
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  nav ul li a:hover {
-    color: #fff;
-    background-color: #333;
-    border-radius: 10px;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  nav ul li a {
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    border-radius:0px;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  h1 {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  ul {
-    margin: 0 auto;
-    width: 80%;
-  }
-  
-  ul li {
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-  }
-  
-  ul li h2 {
-    margin-bottom: 10px;
-  }
-  
-  .navbar i {
-    border-radius: 30%;
-  }
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a:hover {
+  color: #000;
+  background-color: aquamarine;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav ul li a {
+  color: aquamarine;
+  padding: 20px;
+  border-radius:10px;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+h1 {
+  color:aquamarine;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 20px;
+  width:50%;
+  text-align: center;
+  margin-left: 25%;
+}
+
+ul {
+  margin: 0 auto;
+  width: 80%;
+}
+
+ul li {
+  background-color: #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+ul li h2 {
+  margin-bottom: 10px;
+}
+
+.navbar i {
+  border-radius: 30%;
+}
+
+div ul li{
+  color:aquamarine
+}
